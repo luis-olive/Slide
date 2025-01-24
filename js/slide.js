@@ -56,6 +56,7 @@ export default class Slide {
     this.onEnd = this.onEnd.bind(this)
   }
 
+
   // slides config
 
   slidePosition(slide){
