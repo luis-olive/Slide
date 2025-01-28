@@ -67,11 +67,7 @@ export class Slide {
     this.wrapper.addEventListener('touchstart', this.onStart);
     this.wrapper.addEventListener('mouseup', this.onEnd);
     this.wrapper.addEventListener('touchend', this.onEnd);
-
-
   }
-
-
 
   // slides config
 
@@ -150,7 +146,7 @@ export class Slide {
   }
 }
 
-export class SlideNav extends Slide {
+export default class SlideNav extends Slide {
   constructor(slide, wrapper){ 
     super(slide, wrapper);
     this.bindControlEvents();
