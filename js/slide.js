@@ -194,7 +194,7 @@ export class SlideNav extends Slide {
 
   addControl(customControl){
   this.control = document.querySelector(customControl) || this.createControl();
-  this.controlArray = [...this.control.children];
+  this.controlArray = [...this.control.children]; 
   this.controlArray.forEach(this.eventControl);
   this.activeControlItem();
   }
